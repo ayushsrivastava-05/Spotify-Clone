@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for Everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png"> <!--add logo to the title name -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="library_icon.png">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box box1">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy,we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box box2">
+                        <p class="box-p1">Let's find some podcast to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main-containt -->
+        <div class="main-content">
+            <!-- header -->
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <div class="icon1">
+                        <img src="backward_icon.png">
+                    </div>
+                    <div class="icon2 hide">
+                        <img src="forward_icon.png">
+                    </div>
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge hide">Explore Premium</button>
+                    <button class="installbtn"><i class="fa-regular fa-circle-down"></i>Install App</button>
+                    <div class="user">
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- cards making -->
+            <h2>Recently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="Pawan_singh.jpg" class="card-img">
+                    <p class="card-title">This is Pawan Singh</p>
+                    <p class="card-info">By Spotify</p>
+                </div>
+                <div class="card">
+                    <img src="Top50.jpeg" class="card-img">
+                    <p class="card-title">Top 50 Bhojpuri Songs 2025</p>
+                    <p class="card-info">By Spotify</p>
+                </div>
+            </div>
+
+            <h2>Trending now near you</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="Chhalakata_Hamro.jpeg" class="card-img">
+                    <p class="card-title">Chhalakata Hamro...</p>
+                    <p class="card-info">Song by Pawan Singh and Priyanka Singh ‧ 2016...</p>
+                </div>
+                <div class="card">
+                    <img src="Palang_Segwan.jpeg" class="card-img">
+                    <p class="card-title">Palang Sagwan Ke</p>
+                    <p class="card-info">Song by Chhote Baba, Indu Sonali...</p>
+                </div>
+                <div class="card">
+                    <img src="Haranawe.jpeg" class="card-img">
+                    <p class="card-title">Haranawe Dhai Dhai Dabata</p>
+                    <p class="card-info">Song by Samar Singh ‧ 2025...</p>
+                </div>
+                <div class="card">
+                    <img src="Sorry_Sorry.jpeg" class="card-img">
+                    <p class="card-title">Sorry Sorry</p>
+                    <p class="card-info">Song by Pawan Singh ‧ 2016...</p>
+                </div>
+                <div class="card">
+                    <img src="Babuaan.jpeg" class="card-img">
+                    <p class="card-title">Babuaan</p>
+                    <p class="card-info">Song by Pawan Singh, Shilpi...</p>
+                </div>
+                <div class="card">
+                    <img src="photo_zoom.jpeg" class="card-img">
+                    <p class="card-title">Photo Zoom Zoom</p>
+                    <p class="card-info">Song by Neel Kamal ‧ 2025...</p>
+                </div>
+            </div>
+
+            <h2>Featured Charts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="HitBhojpuri.jpeg" class="card-img">
+                    <p class="card-title">Hot Hits Bhojpuri</p>
+                    <p class="card-info">By Spotify</p>
+                </div>
+                <div class="card">
+                    <img src="Pawan_singh2.jpeg" class="card-img">
+                    <p class="card-title">Pawan Singh Radio</p>
+                    <p class="card-info">By Spotify</p>
+                </div>
+                <div class="card">
+                    <img src="card6img.jpeg" class="card-img">
+                    <p class="card-title">Top Songs - India</p>
+                    <p class="card-info">By Spotify</p>
+                </div>
+            </div>
+
+            <!-- footer-line  -->
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+
+        <!-- music-player -->
+        <div class="music-player">
+            <!-- album -->
+            <div class="album">
+                <img src="Chhalakata_Hamro.jpeg" class="album-pic">
+                <div class="album-para">
+                    <p class="album-para1">Chhalakata..</p>
+                    <p class="album-para2">Pawan Singh</p>
+                </div>
+                <div class="album-icons">
+                    <img src="album_icon1.png">
+                    <img src="album_icon2.png">
+                </div>
+            </div>
+
+            <!-- audio -->
+            <div class="player">
+                <div class="player-controls">
+                    <img src="player_icon1.png" class="player-controls-icons">
+                    <img src="player_icon2.png" class="player-controls-icons">
+
+                    <!-- This label wraps the play button -->
+                    <label for="playsong">
+                        <img src="player_icon3.png" class="playbtn" id="playButton">
+                    </label>
+                    <!-- Audio element -->
+                    <audio id="playsong">
+                        <source src="song.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+
+                    <img src="player_icon4.png" class="player-controls-icons">
+                    <img src="player_icon5.png" class="player-controls-icons">
+                </div>
+
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1" value="30">
+                    <span class="tot-time">3:30</span>
+                </div>
+
+            </div>
+            <!-- controls -->
+            <div class="controls">
+                <img src="controls_icon1.png" class="controls-pic1">
+                <img src="controld_icon2.png" class="controls-pic2">
+                <img src="controls_icon3.png" class="controls-pic3">
+                <img src="controls_icon4.png" class="controls-pic4">
+                <img src="controls_icon5.png" class="controls-pic5">
+                <input type="range" min="0" max="100" class="volume-bar" step="1">
+            </div>
+        </div>
+
+    </div>
+
+
+    <script>
+        const audio = document.getElementById("playsong");
+        const playButton = document.getElementById("playButton");
+        const progressBar = document.querySelector(".progress-bar");
+        const currentTimeEl = document.querySelector(".curr-time");
+        const totalTimeEl = document.querySelector(".tot-time");
+
+        // Format time to mm:ss
+        function formatTime(seconds) {
+            const mins = Math.floor(seconds / 60);
+            const secs = Math.floor(seconds % 60);
+            return `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+        }
+
+        // Toggle Play/Pause
+        playButton.addEventListener("click", () => {
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        });
+
+        // Update progress bar as audio plays
+        audio.addEventListener("timeupdate", () => {
+            const current = audio.currentTime;
+            const duration = audio.duration;
+            const percent = (current / duration) * 100;
+
+            progressBar.value = percent || 0;
+            currentTimeEl.textContent = formatTime(current);
+            totalTimeEl.textContent = formatTime(duration);
+        });
+
+        // Seek when user interacts with the progress bar
+        progressBar.addEventListener("input", () => {
+            const duration = audio.duration;
+            if (!isNaN(duration)) {
+                audio.currentTime = (progressBar.value / 100) * duration;
+            }
+        });
+    </script>
+
+</body>
+
+</html>

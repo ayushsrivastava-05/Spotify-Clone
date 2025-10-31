@@ -215,6 +215,15 @@ a {
     cursor: pointer;
 }
 
+.search-bar input{
+    padding: 1rem;
+    height: 1rem;
+    width: 25rem;
+    font-size: medium;
+    border: none;
+    border-radius: 10rem;
+}
+
 .user {
     background-color: black;
     border-radius: 50%;
@@ -258,7 +267,7 @@ a {
     background-color: #191515;
     box-shadow: 6px 6px 10px black;
     transform: scale(1.05); /* Slight zoom-in */
-    transition: transform 0.2s ease; /* Smooth animation */
+    transition: transform 0.2s ease;
 }
 
 .card-img {
